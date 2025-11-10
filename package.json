@@ -1,0 +1,14 @@
+{
+  "name": "aoa-site",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "deploy": "docusaurus deploy"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.4.0",
+    "@docusaurus/preset-classic": "3.4.0"
+  }
+}
