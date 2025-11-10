@@ -1,0 +1,74 @@
+/* Minimalist theme inspired by modelcontextprotocol.io */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-color-primary: #111111;
+  --ifm-color-primary-dark: #000000;
+  --ifm-color-primary-light: #222222;
+  --ifm-background-color: #ffffff;
+  --ifm-heading-color: #111111;
+  --ifm-text-color: #222222;
+  --ifm-code-font-size: 90%;
+  --ifm-spacing-horizontal: 2rem;
+  --ifm-spacing-vertical: 1.5rem;
+  --ifm-line-height-base: 1.8;
+  --ifm-global-radius: 8px;
+}
+
+/* Navbar */
+.navbar {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0.5rem 1rem;
+}
+
+/* Footer */
+.footer {
+  background: #fafafa !important;
+  color: #555;
+  font-size: 0.85rem;
+}
+
+/* Links */
+a {
+  color: #111;
+  text-decoration: underline dotted #ccc;
+}
+a:hover {
+  color: #000;
+  text-decoration: underline solid #000;
+}
+
+/* Blog layout */
+article header h1, .blogPostTitle {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.markdown h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.25rem;
+  margin-top: 2rem;
+}
+
+/* Limit content width for readability */
+.container {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+/* Mermaid diagrams */
+.mermaid svg {
+  max-width: 100%;
+  margin: 2rem 0;
+}
+
+/* Code blocks */
+code, pre {
+  background: #f5f5f5;
+  color: #222;
+  border-radius: 6px;
+}
